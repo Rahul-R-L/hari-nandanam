@@ -1,69 +1,113 @@
-import Image from "next/image";
+import Hero from "@/components/hero/Hero";
+import FeaturedProducts from "@/components/featured/FeaturedProducts";
+import WhyHariNandanam from "@/components/why/WhyHariNandanam";
+import DistributorSection from "@/components/distributor/DistributorSection";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Premium Pooja Products | Lamp Oil, Rose Water & Camphor | Hari Nandanam",
+
+  description:
+    "Hari Nandanam is a premium pooja products brand offering high-quality Lamp Oil, Rose Water, Camphor, Kumkum, Turmeric and Vibuthi. Crafted with devotion and inspired by tradition.",
+
+  keywords: [
+    "Hari Nandanam",
+    "Pooja Products",
+    "Premium Pooja Products",
+    "Lamp Oil",
+    "Pooja Lamp Oil",
+    "Rose Water",
+    "Camphor",
+    "Pure Camphor",
+    "Kumkum",
+    "Turmeric",
+    "Vibuthi",
+    "Pooja Essentials",
+    "Hindu Pooja Products",
+    "Spiritual Products",
+    "Pooja Products Manufacturer",
+    "Pooja Products Kerala",
+    "Wholesale Pooja Products",
+    "Pooja Products Distributor",
+    "Devotional Products",
+  ],
+
+  authors: [
+    {
+      name: "Hari Nandanam",
+    },
+  ],
+
+  creator: "Hari Nandanam",
+
+  publisher: "Unitech Industries",
+
+  metadataBase: new URL("https://www.harinandanam.in"),
+
+  alternates: {
+    canonical: "/",
+  },
+
+  openGraph: {
+    title:
+      "Hari Nandanam | Premium Pooja Products Crafted with Devotion",
+
+    description:
+      "Discover premium pooja essentials including Lamp Oil, Rose Water, Camphor, Kumkum, Turmeric and Vibuthi from Hari Nandanam.",
+
+    url: "https://www.harinandanam.in",
+
+    siteName: "Hari Nandanam",
+
+    images: [
+      {
+        url: "/images/og/homepage.png",
+        width: 1200,
+        height: 630,
+        alt: "Hari Nandanam Premium Pooja Products",
+      },
+    ],
+
+    locale: "en_IN",
+
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title:
+      "Hari Nandanam | Premium Pooja Products",
+
+    description:
+      "Premium Lamp Oil, Rose Water, Camphor and other pooja essentials crafted with devotion.",
+
+    images: ["/images/og/homepage.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+
+  category: "Religious Products",
+};
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      <Hero />
+      <FeaturedProducts />
+      <WhyHariNandanam />
+      <DistributorSection />
+    </>
   );
 }
