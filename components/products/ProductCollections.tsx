@@ -41,11 +41,11 @@ const currentProducts = [
     bgColor: "#FFF4F4",
   },
   {
-    title: "Turmeric",
+    title: "Kalabham",
     subtitle:
-      "Pure turmeric powder for sacred rituals and traditional religious ceremonies.",
-    image: "/images/products/turmeric.webp",
-    href: "/products/turmeric",
+      "Pure sandal wood powder for sacred rituals and traditional religious ceremonies.",
+    image: "/images/products/kalabham.webp",
+    href: "/products/kalabham",
     bgColor: "#FFFBEA",
   },
   {
