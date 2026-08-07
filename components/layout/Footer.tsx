@@ -86,7 +86,7 @@ export default function Footer() {
 
               <li><Link href="/products/kumkum">Kumkum</Link></li>
 
-              <li><Link href="/products/turmeric">Turmeric</Link></li>
+              <li><Link href="/products/kalabham">Kalabham</Link></li>
 
               <li><Link href="/products/vibuthi">Vibuthi</Link></li>
 
@@ -142,7 +142,7 @@ export default function Footer() {
 
                 <Phone size={20} className="text-[#D4AF37]" />
 
-                <span>+91 XXXXX XXXXX</span>
+                <span>+91 944 614 7795</span>
 
               </div>
 
