@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     default: "Hari Nandanam",
     template: "%s | Hari Nandanam",
   },
+    icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
+  },
   description:
     "Premium pooja products crafted with purity, devotion and tradition. Explore Lamp Oil, Rose Water, Camphor and more from Hari Nandanam.",
   keywords: [
