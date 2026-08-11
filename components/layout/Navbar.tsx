@@ -110,11 +110,10 @@ export default function Navbar() {
               width={260}
               height={88}
               priority
-              className={`h-auto transition-all duration-500
-              ${
+              className={`w-auto object-contain transition-all duration-500 ${
                 scrolled
-                  ? "w-[170px] sm:w-[190px] lg:w-[220px]"
-                  : "w-[185px] sm:w-[210px] lg:w-[250px]"
+                  ? "h-[52px] sm:h-[58px] lg:h-[64px]"
+                  : "h-[58px] sm:h-[64px] lg:h-[72px]"
               }`}
             />
           </Link>
