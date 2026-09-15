@@ -1,4 +1,4 @@
-// data/products.ts
+
 
 export type ProductVariant = {
   id: string;
@@ -193,6 +193,10 @@ export const products: Product[] = [
       "kumkum",
       "vibuthi",
       "kalabham",
+      "dhoop-sticks",
+      "dhoop-cones",
+      "natural-sambrani-sticks",
+      "natural-spices-sticks",
     ],
 
     seo: {
@@ -386,6 +390,10 @@ export const products: Product[] = [
       "kumkum",
       "vibuthi",
       "kalabham",
+      "dhoop-sticks",
+      "dhoop-cones",
+      "natural-sambrani-sticks",
+      "natural-spices-sticks",
     ],
 
     seo: {
@@ -518,6 +526,10 @@ export const products: Product[] = [
       "kumkum",
       "vibuthi",
       "kalabham",
+      "dhoop-sticks",
+      "dhoop-cones",
+      "natural-sambrani-sticks",
+      "natural-spices-sticks",
     ],
 
     seo: {
@@ -637,6 +649,10 @@ export const products: Product[] = [
       "vibuthi",
       "kalabham",
       "lamp-oil",
+      "dhoop-sticks",
+      "dhoop-cones",
+      "natural-sambrani-sticks",
+      "natural-spices-sticks",
     ],
 
     seo: {
@@ -756,6 +772,10 @@ export const products: Product[] = [
       "kumkum",
       "kalabham",
       "lamp-oil",
+      "dhoop-sticks",
+      "dhoop-cones",
+      "natural-sambrani-sticks",
+      "natural-spices-sticks",
     ],
 
     seo: {
@@ -882,6 +902,10 @@ export const products: Product[] = [
       "kumkum",
       "vibuthi",
       "lamp-oil",
+      "dhoop-sticks",
+      "dhoop-cones",
+      "natural-sambrani-sticks",
+      "natural-spices-sticks",
     ],
 
     seo: {
@@ -900,6 +924,654 @@ export const products: Product[] = [
       ],
     },
   },
+
+  // ============================================================
+  // DHOOP STICKS
+  // ============================================================
+
+  {
+    slug: "dhoop-sticks",
+
+    name: "Dhoop Sticks",
+
+    shortName: "Dhoop Sticks",
+
+    category: "Incense & Fragrance Products",
+
+    tagline: "A Fragrant Tradition for Every Sacred Moment.",
+
+    shortDescription:
+      "Hari Nandanam Dhoop Sticks are available in Rose, Jasmine, Sandal and Javadhu fragrances in convenient 90 gm jars.",
+
+    description:
+      "Hari Nandanam Dhoop Sticks are made for pooja, prayer, meditation and everyday devotional use. Available in Rose, Jasmine, Sandal and Javadhu fragrances, each variety is packed in a convenient 90 gm jar.",
+
+    heroImage: "/images/products/dhoop-sticks.webp",
+
+    images: [
+      "/images/products/dhoop-sticks.webp",
+    ],
+
+    features: [
+      "Available in four fragrances",
+      "Rose, Jasmine, Sandal and Javadhu varieties",
+      "90 gm jar",
+      "Suitable for pooja and devotional use",
+      "Suitable for prayer and meditation",
+    ],
+
+    suitableFor: [
+      "Daily Pooja",
+      "Prayer",
+      "Meditation",
+      "Temple Worship",
+      "Festivals & Religious Occasions",
+    ],
+
+    usage: [
+      "Place a dhoop stick in a suitable heat-resistant holder.",
+      "Light the tip carefully and allow it to catch fire.",
+      "Extinguish the flame and allow the dhoop stick to smoulder.",
+      "Keep the burning dhoop stick away from flammable materials and unattended areas.",
+    ],
+
+    sizes: [
+      "90 gm Jar",
+    ],
+
+    variants: [
+      {
+        id: "rose",
+        name: "Rose Dhoop Sticks",
+        subtitle: "Rose Fragrance",
+        description:
+          "Hari Nandanam Rose Dhoop Sticks with a floral rose fragrance for pooja, prayer and devotional use.",
+        image: "/images/products/dhoop-sticks/rose.webp",
+        sizes: [
+          "90 gm Jar",
+        ],
+      },
+      {
+        id: "jasmine",
+        name: "Jasmine Dhoop Sticks",
+        subtitle: "Jasmine Fragrance",
+        description:
+          "Hari Nandanam Jasmine Dhoop Sticks with a jasmine fragrance for pooja, prayer and devotional use.",
+        image: "/images/products/dhoop-sticks/jasmine.webp",
+        sizes: [
+          "90 gm Jar",
+        ],
+      },
+      {
+        id: "sandal",
+        name: "Sandal Dhoop Sticks",
+        subtitle: "Sandal Fragrance",
+        description:
+          "Hari Nandanam Sandal Dhoop Sticks with a sandal fragrance for pooja, prayer and devotional use.",
+        image: "/images/products/dhoop-sticks/sandal.webp",
+        sizes: [
+          "90 gm Jar",
+        ],
+      },
+      {
+        id: "javadhu",
+        name: "Javadhu Dhoop Sticks",
+        subtitle: "Javadhu Fragrance",
+        description:
+          "Hari Nandanam Javadhu Dhoop Sticks with a traditional Javadhu fragrance for pooja, prayer and devotional use.",
+        image: "/images/products/dhoop-sticks/javadhu.webp",
+        sizes: [
+          "90 gm Jar",
+        ],
+      },
+    ],
+
+    specifications: [
+      {
+        label: "Product",
+        value: "Dhoop Sticks",
+      },
+      {
+        label: "Brand",
+        value: "Hari Nandanam",
+      },
+      {
+        label: "Category",
+        value: "Incense & Fragrance Products",
+      },
+      {
+        label: "Fragrances",
+        value: "Rose, Jasmine, Sandal & Javadhu",
+      },
+      {
+        label: "Pack Size",
+        value: "90 gm Jar",
+      },
+      {
+        label: "Manufacturer",
+        value: "Unitech Industries",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "What fragrances are available in Hari Nandanam Dhoop Sticks?",
+        answer:
+          "Hari Nandanam Dhoop Sticks are available in Rose, Jasmine, Sandal and Javadhu fragrances.",
+      },
+      {
+        question: "What is the pack size?",
+        answer:
+          "Hari Nandanam Dhoop Sticks are packed in 90 gm jars.",
+      },
+      {
+        question: "What are Dhoop Sticks used for?",
+        answer:
+          "Dhoop Sticks are intended for pooja, prayer, meditation and traditional devotional use.",
+      },
+      {
+        question: "How should Dhoop Sticks be used?",
+        answer:
+          "Place a dhoop stick in a suitable heat-resistant holder, light the tip carefully, extinguish the flame and allow it to smoulder.",
+      },
+      {
+        question: "How should Dhoop Sticks be stored?",
+        answer:
+          "Keep the jar tightly closed and store the product in a cool, dry place away from moisture, heat and direct sunlight.",
+      },
+    ],
+
+    relatedProducts: [
+      "dhoop-cones",
+      "natural-sambrani-sticks",
+      "natural-spices-sticks",
+      "camphor",
+      "lamp-oil",
+    ],
+
+    seo: {
+      title: "Dhoop Sticks - Rose, Jasmine, Sandal & Javadhu | Hari Nandanam",
+
+      description:
+        "Hari Nandanam Dhoop Sticks in Rose, Jasmine, Sandal and Javadhu fragrances. 90 gm jars for pooja, prayer, meditation and devotional use.",
+
+      keywords: [
+        "dhoop sticks",
+        "dhoop sticks for pooja",
+        "rose dhoop sticks",
+        "jasmine dhoop sticks",
+        "sandal dhoop sticks",
+        "javadhu dhoop sticks",
+        "incense sticks",
+        "pooja dhoop sticks",
+        "Hari Nandanam dhoop sticks",
+      ],
+    },
+  },
+
+  // ============================================================
+  // DHOOP CONES
+  // ============================================================
+
+  {
+    slug: "dhoop-cones",
+
+    name: "Dhoop Cones",
+
+    shortName: "Dhoop Cones",
+
+    category: "Incense & Fragrance Products",
+
+    tagline: "Fragrance in a Traditional Cone.",
+
+    shortDescription:
+      "Hari Nandanam Dhoop Cones are available in Rose, Jasmine, Sandal and Javadhu fragrances in convenient 90 gm jars.",
+
+    description:
+      "Hari Nandanam Dhoop Cones are made for pooja, prayer, meditation and everyday devotional use. Available in Rose, Jasmine, Sandal and Javadhu fragrances, each variety is packed in a convenient 90 gm jar.",
+
+    heroImage: "/images/products/dhoop-cones.webp",
+
+    images: [
+      "/images/products/dhoop-cones.webp",
+    ],
+
+    features: [
+      "Available in four fragrances",
+      "Rose, Jasmine, Sandal and Javadhu varieties",
+      "90 gm jar",
+      "Suitable for pooja and devotional use",
+      "Suitable for prayer and meditation",
+    ],
+
+    suitableFor: [
+      "Daily Pooja",
+      "Prayer",
+      "Meditation",
+      "Temple Worship",
+      "Festivals & Religious Occasions",
+    ],
+
+    usage: [
+      "Place a dhoop cone on a suitable heat-resistant incense holder.",
+      "Light the tip carefully and allow it to catch fire.",
+      "Extinguish the flame and allow the cone to smoulder.",
+      "Keep the burning dhoop cone away from flammable materials and unattended areas.",
+    ],
+
+    sizes: [
+      "90 gm Jar",
+    ],
+
+    variants: [
+      {
+        id: "rose",
+        name: "Rose Dhoop Cones",
+        subtitle: "Rose Fragrance",
+        description:
+          "Hari Nandanam Rose Dhoop Cones with a floral rose fragrance for pooja, prayer and devotional use.",
+        image: "/images/products/dhoop-cones/rose.webp",
+        sizes: [
+          "90 gm Jar",
+        ],
+      },
+      {
+        id: "jasmine",
+        name: "Jasmine Dhoop Cones",
+        subtitle: "Jasmine Fragrance",
+        description:
+          "Hari Nandanam Jasmine Dhoop Cones with a jasmine fragrance for pooja, prayer and devotional use.",
+        image: "/images/products/dhoop-cones/jasmine.webp",
+        sizes: [
+          "90 gm Jar",
+        ],
+      },
+      {
+        id: "sandal",
+        name: "Sandal Dhoop Cones",
+        subtitle: "Sandal Fragrance",
+        description:
+          "Hari Nandanam Sandal Dhoop Cones with a sandal fragrance for pooja, prayer and devotional use.",
+        image: "/images/products/dhoop-cones/sandal.webp",
+        sizes: [
+          "90 gm Jar",
+        ],
+      },
+      {
+        id: "javadhu",
+        name: "Javadhu Dhoop Cones",
+        subtitle: "Javadhu Fragrance",
+        description:
+          "Hari Nandanam Javadhu Dhoop Cones with a traditional Javadhu fragrance for pooja, prayer and devotional use.",
+        image: "/images/products/dhoop-cones/javadhu.webp",
+        sizes: [
+          "90 gm Jar",
+        ],
+      },
+    ],
+
+    specifications: [
+      {
+        label: "Product",
+        value: "Dhoop Cones",
+      },
+      {
+        label: "Brand",
+        value: "Hari Nandanam",
+      },
+      {
+        label: "Category",
+        value: "Incense & Fragrance Products",
+      },
+      {
+        label: "Fragrances",
+        value: "Rose, Jasmine, Sandal & Javadhu",
+      },
+      {
+        label: "Pack Size",
+        value: "90 gm Jar",
+      },
+      {
+        label: "Manufacturer",
+        value: "Unitech Industries",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "What fragrances are available in Hari Nandanam Dhoop Cones?",
+        answer:
+          "Hari Nandanam Dhoop Cones are available in Rose, Jasmine, Sandal and Javadhu fragrances.",
+      },
+      {
+        question: "What is the pack size?",
+        answer:
+          "Hari Nandanam Dhoop Cones are packed in 90 gm jars.",
+      },
+      {
+        question: "What are Dhoop Cones used for?",
+        answer:
+          "Dhoop Cones are intended for pooja, prayer, meditation and traditional devotional use.",
+      },
+      {
+        question: "How should Dhoop Cones be used?",
+        answer:
+          "Place a dhoop cone on a suitable heat-resistant holder, light the tip carefully, extinguish the flame and allow it to smoulder.",
+      },
+      {
+        question: "How should Dhoop Cones be stored?",
+        answer:
+          "Keep the jar tightly closed and store the product in a cool, dry place away from moisture, heat and direct sunlight.",
+      },
+    ],
+
+    relatedProducts: [
+      "dhoop-sticks",
+      "natural-sambrani-sticks",
+      "natural-spices-sticks",
+      "camphor",
+      "lamp-oil",
+    ],
+
+    seo: {
+      title: "Dhoop Cones - Rose, Jasmine, Sandal & Javadhu | Hari Nandanam",
+
+      description:
+        "Hari Nandanam Dhoop Cones in Rose, Jasmine, Sandal and Javadhu fragrances. 90 gm jars for pooja, prayer, meditation and devotional use.",
+
+      keywords: [
+        "dhoop cones",
+        "dhoop cones for pooja",
+        "rose dhoop cones",
+        "jasmine dhoop cones",
+        "sandal dhoop cones",
+        "javadhu dhoop cones",
+        "pooja dhoop cones",
+        "incense cones",
+        "Hari Nandanam dhoop cones",
+      ],
+    },
+  },
+
+  // ============================================================
+  // NATURAL SAMBRANI STICKS
+  // ============================================================
+
+  {
+    slug: "natural-sambrani-sticks",
+
+    name: "Natural Sambrani Sticks",
+
+    shortName: "Natural Sambrani Sticks",
+
+    category: "Incense & Fragrance Products",
+
+    tagline: "The Traditional Fragrance of Sambrani.",
+
+    shortDescription:
+      "Hari Nandanam Natural Sambrani Sticks made with pure natural ingredients, packed in a 200 gm jar with 1 hour+ burning time.",
+
+    description:
+      "Hari Nandanam Natural Sambrani Sticks are made with pure natural ingredients and are intended for pooja, prayer, meditation and traditional devotional use. Each 200 gm jar offers a burning time of 1 hour or more.",
+
+    heroImage: "/images/products/natural-sambrani-sticks.webp",
+
+    images: [
+      "/images/products/natural-sambrani-sticks.webp",
+    ],
+
+    features: [
+      "Pure natural ingredients",
+      "1 hour+ burning time",
+      "200 gm jar",
+      "Suitable for pooja and devotional use",
+      "Suitable for prayer and meditation",
+    ],
+
+    suitableFor: [
+      "Daily Pooja",
+      "Prayer",
+      "Meditation",
+      "Temple Worship",
+      "Traditional Devotional Practices",
+    ],
+
+    usage: [
+      "Place a Natural Sambrani Stick in a suitable heat-resistant holder.",
+      "Light the tip carefully and allow it to catch fire.",
+      "Extinguish the flame and allow the stick to smoulder.",
+      "Keep the burning stick away from flammable materials and unattended areas.",
+    ],
+
+    sizes: [
+      "200 gm Jar",
+    ],
+
+    specifications: [
+      {
+        label: "Product",
+        value: "Natural Sambrani Sticks",
+      },
+      {
+        label: "Brand",
+        value: "Hari Nandanam",
+      },
+      {
+        label: "Category",
+        value: "Incense & Fragrance Products",
+      },
+      {
+        label: "Ingredients",
+        value: "Pure Natural Ingredients",
+      },
+      {
+        label: "Burning Time",
+        value: "1 Hour+",
+      },
+      {
+        label: "Pack Size",
+        value: "200 gm Jar",
+      },
+      {
+        label: "Manufacturer",
+        value: "Unitech Industries",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "What are Hari Nandanam Natural Sambrani Sticks made with?",
+        answer:
+          "Hari Nandanam Natural Sambrani Sticks are made with pure natural ingredients.",
+      },
+      {
+        question: "What is the burning time?",
+        answer:
+          "The stated burning time for Hari Nandanam Natural Sambrani Sticks is 1 hour or more.",
+      },
+      {
+        question: "What is the pack size?",
+        answer:
+          "Hari Nandanam Natural Sambrani Sticks are packed in 200 gm jars.",
+      },
+      {
+        question: "What are Natural Sambrani Sticks used for?",
+        answer:
+          "They are intended for pooja, prayer, meditation and traditional devotional use.",
+      },
+      {
+        question: "How should Natural Sambrani Sticks be stored?",
+        answer:
+          "Keep the jar tightly closed and store the product in a cool, dry place away from moisture, heat and direct sunlight.",
+      },
+    ],
+
+    relatedProducts: [
+      "dhoop-sticks",
+      "dhoop-cones",
+      "natural-spices-sticks",
+      "camphor",
+      "lamp-oil",
+    ],
+
+    seo: {
+      title: "Natural Sambrani Sticks | 1 Hour+ Burning | Hari Nandanam",
+
+      description:
+        "Hari Nandanam Natural Sambrani Sticks made with pure natural ingredients, with 1 hour+ burning time in a 200 gm jar.",
+
+      keywords: [
+        "natural sambrani sticks",
+        "sambrani sticks",
+        "sambrani incense sticks",
+        "natural sambrani",
+        "sambrani sticks for pooja",
+        "sambrani for pooja",
+        "long burning sambrani sticks",
+        "Hari Nandanam sambrani sticks",
+      ],
+    },
+  },
+
+  // ============================================================
+  // NATURAL SPICES STICKS
+  // ============================================================
+
+  {
+    slug: "natural-spices-sticks",
+
+    name: "Natural Spices Sticks",
+
+    shortName: "Natural Spices Sticks",
+
+    category: "Incense & Fragrance Products",
+
+    tagline: "A Warm, Natural Fragrance for Sacred Spaces.",
+
+    shortDescription:
+      "Hari Nandanam Natural Spices Sticks made with pure natural ingredients, packed in a 200 gm jar with 1 hour+ burning time.",
+
+    description:
+      "Hari Nandanam Natural Spices Sticks are made with pure natural ingredients and are intended for pooja, prayer, meditation and traditional devotional use. Each 200 gm jar offers a burning time of 1 hour or more.",
+
+    heroImage: "/images/products/natural-spices-sticks.webp",
+
+    images: [
+      "/images/products/natural-spices-sticks.webp",
+    ],
+
+    features: [
+      "Pure natural ingredients",
+      "1 hour+ burning time",
+      "200 gm jar",
+      "Suitable for pooja and devotional use",
+      "Suitable for prayer and meditation",
+    ],
+
+    suitableFor: [
+      "Daily Pooja",
+      "Prayer",
+      "Meditation",
+      "Temple Worship",
+      "Traditional Devotional Practices",
+    ],
+
+    usage: [
+      "Place a Natural Spices Stick in a suitable heat-resistant holder.",
+      "Light the tip carefully and allow it to catch fire.",
+      "Extinguish the flame and allow the stick to smoulder.",
+      "Keep the burning stick away from flammable materials and unattended areas.",
+    ],
+
+    sizes: [
+      "200 gm Jar",
+    ],
+
+    specifications: [
+      {
+        label: "Product",
+        value: "Natural Spices Sticks",
+      },
+      {
+        label: "Brand",
+        value: "Hari Nandanam",
+      },
+      {
+        label: "Category",
+        value: "Incense & Fragrance Products",
+      },
+      {
+        label: "Ingredients",
+        value: "Pure Natural Ingredients",
+      },
+      {
+        label: "Burning Time",
+        value: "1 Hour+",
+      },
+      {
+        label: "Pack Size",
+        value: "200 gm Jar",
+      },
+      {
+        label: "Manufacturer",
+        value: "Unitech Industries",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "What are Hari Nandanam Natural Spices Sticks made with?",
+        answer:
+          "Hari Nandanam Natural Spices Sticks are made with pure natural ingredients.",
+      },
+      {
+        question: "What is the burning time?",
+        answer:
+          "The stated burning time for Hari Nandanam Natural Spices Sticks is 1 hour or more.",
+      },
+      {
+        question: "What is the pack size?",
+        answer:
+          "Hari Nandanam Natural Spices Sticks are packed in 200 gm jars.",
+      },
+      {
+        question: "What are Natural Spices Sticks used for?",
+        answer:
+          "They are intended for pooja, prayer, meditation and traditional devotional use.",
+      },
+      {
+        question: "How should Natural Spices Sticks be stored?",
+        answer:
+          "Keep the jar tightly closed and store the product in a cool, dry place away from moisture, heat and direct sunlight.",
+      },
+    ],
+
+    relatedProducts: [
+      "dhoop-sticks",
+      "dhoop-cones",
+      "natural-sambrani-sticks",
+      "camphor",
+      "lamp-oil",
+    ],
+
+    seo: {
+      title: "Natural Spices Sticks | 1 Hour+ Burning | Hari Nandanam",
+
+      description:
+        "Hari Nandanam Natural Spices Sticks made with pure natural ingredients, with 1 hour+ burning time in a 200 gm jar.",
+
+      keywords: [
+        "natural spices sticks",
+        "spice incense sticks",
+        "natural incense sticks",
+        "spices sticks for pooja",
+        "natural sticks for pooja",
+        "long burning incense sticks",
+        "Hari Nandanam spices sticks",
+      ],
+    },
+  },
+
 ];
 
 // ============================================================
