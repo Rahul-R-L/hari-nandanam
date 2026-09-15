@@ -1,53 +1,61 @@
 import type { Metadata } from "next";
 
 import ProductsHero from "@/components/products/ProductsHero";
-
 import ProductCollections from "@/components/products/ProductCollections";
-// import ComingSoon from "@/components/products/ComingSoon";
-// import QualityPromise from "@/components/products/QualityPromise";
-// import ProductCTA from "@/components/products/ProductCTA";
 
 export const metadata: Metadata = {
   title: "Premium Pooja Products | Hari Nandanam",
 
   description:
-    "Explore Hari Nandanam's premium range of pooja products including Lamp Oil, Rose Water, Camphor, Kumkum, Turmeric and Vibuthi, crafted with purity, devotion and respect for timeless traditions.",
+    "Explore Hari Nandanam's range of pooja and devotional products including Camphor, Rose Water, Lamp Oil, Kumkum, Vibuthi, Kalabham, Dhoop Sticks, Dhoop Cones, Natural Sambrani Sticks and Natural Spices Sticks.",
 
   keywords: [
     "Hari Nandanam",
     "Pooja Products",
     "Premium Pooja Products",
-    "Lamp Oil",
-    "Rose Water",
-    "Camphor",
-    "Kumkum",
-    "Turmeric",
-    "Vibuthi",
     "Pooja Essentials",
+    "Camphor",
+    "Pure Camphor",
+    "Rose Water",
+    "Lamp Oil",
+    "Kumkum",
+    "Vibuthi",
+    "Kalabham",
+    "Sandalwood Powder",
+    "Dhoop Sticks",
+    "Dhoop Cones",
+    "Natural Sambrani Sticks",
+    "Natural Spices Sticks",
+    "Devotional Products",
+    "Pooja Essentials India",
   ],
 
   alternates: {
     canonical: "/products",
+  },
+
+  openGraph: {
+    title: "Premium Pooja Products | Hari Nandanam",
+    description:
+      "Explore Hari Nandanam's range of pooja and devotional products for daily worship, traditional rituals and sacred occasions.",
+    url: "/products",
+    siteName: "Hari Nandanam",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Premium Pooja Products | Hari Nandanam",
+    description:
+      "Explore Hari Nandanam's range of pooja and devotional products for daily worship, traditional rituals and sacred occasions.",
   },
 };
 
 export default function ProductsPage() {
   return (
     <>
-<>
-  <ProductsHero />
-
-  <ProductCollections />
-
-  {/*<QualityPromise />*/}
-
-  {/*<DistributorCTA />*/}
-</>
-
-      {/* Build these next */}
-      {/* <ComingSoon /> */}
-      {/* <QualityPromise /> */}
-      {/* <ProductCTA /> */}
+      <ProductsHero />
+      <ProductCollections />
     </>
   );
 }
